@@ -21,6 +21,7 @@
   - [.gate Objects](gate.md)
   - [.leaf Objects](leaf.md)
 - [Game Files](game_files.md)
+- [Tooling](tooling.md)
 - [Misc]()
   - [Sorted Sample List](samples_sorted.md)
   - [ui_thumper.scoring](ui_thumper_scoring.md)
