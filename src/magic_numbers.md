@@ -2,7 +2,9 @@
 A magic number is a 32-bit hash value produced by applying a hash function on a string. Hash tables are maintained in the game executable storing the hash values for string literals like game file paths, object types and parameter names. This is probably done to avoid expensive string comparisons and allow a more compact way of packing the binary game files.
 
 ## Hash Function
-We have two versions of this hash function shown below, we should come up with a version implementing the for loop.
+We have two versions of this hash function shown below, we should come up with a version implementing the for loop. The hash function is based on `FNV-1a`.
+
+The implementations below may or may not match Thumper's function signature for their hash function. More decomp work needs done to discover this.
 
 ### TiddlyHost's Implementation
 ```cpp

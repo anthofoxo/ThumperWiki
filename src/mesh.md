@@ -63,6 +63,9 @@ All known values of `_unknownField4` are the same across LODs.
 ## Where Meshes are Seen in-game
 While it's not known where every mesh is used, here's a known list of mesh hashes and where they appear in game.
 
+### Level 1 Crakhed Sections
+* `6fb05486` - Top
+
 ### Level 2 Crakhed Sections
 * `c45c2f8d` - Spikes
 * `1b1d80a6` - Top
@@ -78,17 +81,67 @@ While it's not known where every mesh is used, here's a known list of mesh hashe
 ### Level 8 Crakhed Sections
 * `25921ac9` - Top
 
+### Level 9 Crakhed Sections
+* `8cb8b1b0` - Crakhed
+
+### Level 9-Infinity
+* `ba01318a` - The smaller pyramids after first damage
+
 ### Avatar Sections
-* `feecba3a` - Elytra
+* `feecba3a` - Elytra / Shell
+* `62a36fa5` - Elytra / Shell
+* `80717d3d` - Elytra / Shell
+* `8f0b6ae3` - Elytra / Shell
+* `820a89` - Elytra / Shell
+* `b32ff62c` - Elytra / Shell
 * `ea4d6098` - Wing
+* `6277f30c` - Eyes??
+* `77bdd976` - Eyes??
+* `65da49f0` - Leg / Mandible??
+* `8da4788c` - Leg / Mandible??
+* `b434566c` - Leg / Mandible??
 
 ### Avatar Track Effects
 * `21eab766` - Used along edges of track while moving
 
+### Tunnels
+* `1571d820` - Level 1-1 Tunnel
+
 ### Track
 * `23e0f9a6` - Left Railing
+* `48dda1ca` - Right Railing
+
+* `8181e627` - Track Related???
+* `5d18a6d0` - Track GFX Related???
+* `5a78fba0` - Railing Multilame termination?
+* `7f6179e7` - Railing Multilame termination?
+
+### Turns
+* `8fe857` - Long turn midsection
+* `9a879f8d` - Long turn midsection
+* `5dac45eb` - Long turn end??
+* `a6d88b36` - Long turn end??
+* `62f144f5` - Track lane end GFX??
+* `9b1b5db4` - Track lane end GFX??
+
+## Pyramid
+`bc09fd01` - Pyramid as seen in title and start of 9-infinity
 
 ### Other
+* `4ea2877` - Checkpoint Section
+* `5a1a0347` - Checkpoint Section???
 * `f941ce4b` - Unknown Tunnel
 * `dfb1f099` - Zillapede
 * `ddde1463` - Crakhed, lower jaw
+* `abea8990` - Crakhed, bottom
+* `49cdb984` - Crakhed, middle
+* `50f9cda3` - Crakhed, middle
+* `92750fab` - Crakhed, middle
+* `ea65656c` - Crakhed, middle
+* `5c4bad17` - Crakhed Spikes
+* `91b4e72b` - Crakhed Spikes
+* `c971d1b7` - Crakhed Spikes
+* `66ac3ee1` - Crakhed bottom
+* `ba8f07b4` - Crakhed bottom
+* `872bf749` - Crakhed top
+* `844d496d` - Zillapede (nospike)
