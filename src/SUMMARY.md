@@ -22,6 +22,8 @@
   - [.leaf Objects](leaf.md)
 - [Game Files](game_files.md)
 - [Tooling](tooling.md)
+- [Other]()
+  - [Known Audio Channels](audio_channels.md)
 - [Downpatching](downpatching.md)
 - [Misc]()
   - [Undocumented Definition Headers](undoc_headers.md)
