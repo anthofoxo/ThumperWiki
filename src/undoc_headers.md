@@ -38,6 +38,7 @@ Headers are defined as set of u32. The headers are not known set since their str
 
 ## `.anim`
 There seems to be multiple different types of anim, so this struct will not match all instances of anim you encounter.
+
 | Type        | Name           | Meaning                                  |
 | ----------- | -------------- | ---------------------------------------- |
 | `u32[...]`  | header         | Header, possible header values not known |
