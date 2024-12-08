@@ -3,7 +3,7 @@ A .master Object is the sequence master of a level .objlib file, defining the or
 
 A screenshot of [Drool's Editor](drools_editor.md) with a .master Object open is shown below.
 
-![A screenshot of Drool's Editor with a .master Object open](master.png)
+![A screenshot of Drool's Editor with a .master Object open](content/master.png)
 
 ## Format
 

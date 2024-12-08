@@ -3,7 +3,7 @@ For [level .objlib files](objlib_level_structure.md), a .lvl Object roughly corr
 
 Here is a screenshot of [Drool's Editor](drools_editor.md) showing the .lvl Object named `drums_short_pattern2.lvl`, from `levels/Level6/level_6.objlib`.
 
-![screenshot of Drool's Editor showing the .lvl Object named drums_short_pattern2.lvl](lvl.png)
+![screenshot of Drool's Editor showing the .lvl Object named drums_short_pattern2.lvl](content/lvl.png)
 
 Each sequin .objlib file contains a .lvl Object named root.lvl, which is usually used to define a sequence of animations.
 

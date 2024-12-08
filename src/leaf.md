@@ -4,7 +4,7 @@ For [level .objlib files](objlib_level_structure.md), a .leaf Object (or SequinL
 
 The following screenshot shows a modified version of the .leaf Object named `drums_short_pattern2.leaf`, from `levels/Level6/level_6.objlib`.
 
-![modified version of the .leaf Object named `drums_short_pattern2.leaf`, from `levels/Level6/level_6.objlib`](leaf.png)
+![modified version of the .leaf Object named `drums_short_pattern2.leaf`, from `levels/Level6/level_6.objlib`](content/leaf.png)
 
 For sequin .objlib files, each of the .leaf Objects defines which objects and parameters are changed over the course of an animation.
 
