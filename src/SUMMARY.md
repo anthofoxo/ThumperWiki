@@ -26,6 +26,7 @@
   - [Known Audio Channels](audio_channels.md)
   - [.anim Decomp](anim_decomp.md)
   - [.cam Decomp](cam_decom.md)
+  - [Every Thumper Leaf File](leaf_dump.md)
 - [Downpatching](downpatching.md)
 - [Misc]()
   - [Undocumented Definition Headers](undoc_headers.md)
