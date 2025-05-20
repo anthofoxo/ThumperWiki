@@ -62,8 +62,18 @@ For example `u8[4..6]` may select `4`, `5`, or `6` bytes.
 
 ## Composite Types and Structures
 
+Its common to see arrays with a dynamic size. This will be called a `vector`. Pull from C++ terms. Shortened to `vec` in structs.
+
+### vec\<T\>
+| Type       | Name     | Meaning   |
+| ---------- | -------- | --------- |
+| `u32`      | count    | Number of elements in the array |
+| `T[count]` | elements | The elements of the array |
+
+## Composite aliases
+
 ### str
-A string in Thumper is simply a size that refers to the following byte count, then the bytes themselves. Strings are defined with the structure below:
+A string in Thumper is simply a size that refers to the following byte count, then the bytes themselves. Strings are an alias of `vec<T> where T = u8`. When expanded follows this structure:
 
 | Type       | Name  | Meaning                       |
 | ---------- | ----- | ----------------------------- |

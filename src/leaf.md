@@ -31,34 +31,49 @@ The following is a list of known [parameters](object_param_selectors.md) belongi
 
 ## Format
 
-### Header
-| Length | Data Type                    | Meaning   |
-| ------ | ---------------------------- | --------- |
-| 4      | [int32](data_types.md#int32) | *Unknown* |
-| 4      | [int32](data_types.md#int32) | *Unknown* |
-| 4      | [int32](data_types.md#int32) | *Unknown* |
-| 4      | [int32](data_types.md#int32) | *Unknown* |
 
-### Animation Component Section
-*Unknown*
+### Overview
+```
+u32 header[4];
+u32 hash;
+u32 unknown;
+u32 hash;
+str timeUnit;
+u32 hash;
+vec<Trait> traits;
+u32 unknown;
+u32 beatCount;
+vec3<f32> unknown[beatCount];
+u32 unknown;
+u32 unknown;
+u32 unknown;
+```
 
-### Edit State Component Section
-*Unknown*
+### Trait
+```
+str object;
+u32 unknown;
+u32 subojectHash;
+s32 selectorShareIdx;
+u32 datatype;
+vec<Datapoint<datatype>> datapoints;
+vec<Datapoint<datatype>> editorDatapoints;
+u32 unknown[5];
+str intensity[2];
+u8 unknown;
+u8 unknown;
+u32 unknown;
+f32 unknown[5];
+u8 unknown[3];
+```
 
-### Trait Animation Section
-*Unknown*
-
-See [Sequencer Objects](seqin_objects.md) for the format of each Sequencer Object.
-
-### Footer
-| Length  | Data Type                     | Meaning   |
-| ------- | ----------------------------- | --------- |
-| 4       | [int32](data_types.md#int32)? | *Unknown* |
-| 4       | [int32](data_types.md#int32)  | *Unknown* |
-| Unknown | Unknown	                      | *Unknown* |
-| 4       | [int32](data_types.md#int32)? | *Unknown* |
-| 4       | [int32](data_types.md#int32)? | *Unknown* |
-| 4       | [int32](data_types.md#int32)? | *Unknown* |
+### Datapoint\<T\>
+```
+f32 time;
+T value; // Depends on the datatype being used
+str interpolation;
+str easing;
+```
 
 ## Footnotes
 [^latex]: This should be formatted with LaTeX.
