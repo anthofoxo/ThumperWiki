@@ -13,6 +13,7 @@
 - [Trait Values](trait_values.md)
 - [Magic Numbers](magic_numbers.md)
   - [Hashed File Names](hashed_file_names.md)
+  - [Execution Startup Hashes](startup_hashes.md)
   - [Object Types](object_types.md)
   - [Object/Parameter Selectors](object_param_selectors.md)
 - [Objects]()
